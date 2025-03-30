@@ -1,0 +1,176 @@
+*{
+    /* padding: 0px; */
+    margin: 0px;
+    /* height: 100%; */
+    /* width: 100vw; */
+    /* background-color: #EBE8DB; */
+} 
+
+.navbar {
+    background-color:#69e6ef;
+ 
+    display: flex;
+    width: 100%;
+    height: 10%;
+    /* gap: 500px; */
+}
+.logoimage{
+    height: 30px;
+    width: 30px;
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+}
+.nav1
+{
+ 
+    display: flex;
+    flex: 1;
+    width: 8rem;
+}
+
+.nav2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    flex: 2;
+
+}
+
+.nav2list {
+    display: flex;
+    flex: 2;
+   
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    gap: 20px;
+    margin: 0;
+   
+}
+
+li{
+    list-style: none;
+}
+.navElements
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+        align-items: center;
+  
+}
+.navElements a{
+    text-decoration: none;
+    
+}
+.nav1 select{
+    display: none;
+}
+
+
+
+
+@media (max-width: 920px) 
+{
+    #navbar
+    {
+        height: fit-content;
+    }
+    .navElements{
+        display: block; 
+    }
+
+    .nav1 ol{
+        display: none;
+    }
+    .nav1 select{
+        display: block;
+        margin: 0.5rem;   
+        
+    }
+    .nav1 a img{
+        margin: 0.5rem;
+    }
+    .styled-dropdown {
+        width: 7rem;
+        height: auto;
+        font-size: 15px;
+        padding: 0px 0.5rem;
+        appearance: none;
+        /* border: 2px solid #ccc; */
+        border-radius: 5px;
+        background-color: #fff;
+        color: #333;
+        transition: all 0.3s ease;
+       
+    }
+    
+    /* Adding a custom arrow to the dropdown */
+    .styled-dropdown::-ms-expand {
+        display: none;
+    }
+    
+  
+    /* Style the options */
+    .styled-dropdown option {
+        padding: 10px;
+        font-size: 16px;
+        background-color: #fff;
+        color: #333;
+    }
+    
+    /* Hover effect for the select box */
+    .styled-dropdown:hover {
+        border-color: #007bff;
+    }
+    
+    /* Focus effect when the select is active */
+    
+    
+    /* Custom arrow design */
+    .styled-dropdown {
+        position: relative;
+        padding-right: 30px; /* Adjust padding to make space for the arrow */
+    }
+    
+    /* Option hover effect */
+    .styled-dropdown option:hover {
+        background-color: #007bff;
+        color: white;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
