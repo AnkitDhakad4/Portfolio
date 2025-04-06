@@ -1,0 +1,132 @@
+.main
+{
+    display: flex;
+    padding-top: 4.7rem;
+    background: white;
+}
+
+
+.maindiv1
+{
+    margin: 1rem;
+    /* border: 1px solid black; */
+    height: auto;
+    width: 50vw;
+    background-color: #fff5e4c9;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.maindiv1 .indiv1 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    height: auto;
+  }
+
+  .academic
+  {
+    margin: 2rem;
+  }
+
+  .skill 
+  {
+    margin:1rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+}
+.skill h2{
+
+    color: rgb(40, 126, 230, 0.927);
+}
+
+  .project
+  {
+    margin:1rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+
+
+  }
+ 
+
+
+.academic h2{
+    color: rgba(40, 126, 230, 0.927);
+}
+.academic p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.maindiv2
+{
+    margin: 1rem;
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 50vw;
+    background-color: #fff5e4c9;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+
+.hello
+{
+   margin-top: 1rem;
+   margin-left: 2rem;
+}
+.intropara 
+{
+    height:100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.intropara2
+{
+    height:100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footer
+{
+    background-color: #003092;
+    color: white;
+    font-size: large;
+    font-family:sans-serif;
+    height: auto;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 920px) 
+{
+    .main
+    {
+        flex-direction: column;
+    }
+    .maindiv1{
+        width: auto;
+        height: auto;
+    }
+    .maindiv2{
+        width: auto;
+        height: auto;
+    }
+
+    .intropara2
+    {
+        display: none;
+    }
+    .intropara 
+    {
+        height:100px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+}

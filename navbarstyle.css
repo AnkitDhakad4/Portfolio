@@ -5,20 +5,25 @@
     /* width: 100vw; */
     /* background-color: #EBE8DB; */
 } 
+.navbar a, 
+.navbar li{
+    color: white !important;
+}
 
 .navbar {
-    background-color:#69e6ef;
+    background-color:#0A1828;
+    position:fixed;
  
     display: flex;
     width: 100%;
-    height: 10%;
+    height: 4rem;
     /* gap: 500px; */
 }
 .logoimage{
     height: 30px;
     width: 30px;
     padding-left: 1rem;
-    padding-top: 0.4rem;
+    padding-top: 1.1rem;
 }
 .nav1
 {
@@ -35,6 +40,7 @@
     align-items: center;
     width: 200px;
     flex: 2;
+    padding-right: 1rem;
 
 }
 
@@ -85,10 +91,12 @@ li{
     .nav1 ol{
         display: none;
     }
+    
     .nav1 select{
         display: block;
-        margin: 0.5rem;   
-        
+        margin-top: 1.7rem;
+        margin-left: 0.2rem; 
+        height: 25px;
     }
     .nav1 a img{
         margin: 0.5rem;
@@ -126,7 +134,7 @@ li{
         border-color: #007bff;
     }
     
-    /* Focus effect when the select is active */
+
     
     
     /* Custom arrow design */
@@ -143,6 +151,22 @@ li{
     
 }
 
+
+@media (max-width: 340px) 
+{
+.nav2 {
+    display: none;
+}
+
+.nav1
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:0rem 1rem;
+}
+    
+}
 
 
 
